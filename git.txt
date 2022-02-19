@@ -1,0 +1,18 @@
+mes codes git
+
+ initier un depot                           # git init
+ 
+ajouter des modificatio aporter             # git add . le point est obligatoire
+faire un comit                              # git commit -m "explication du commite"
+colner un projet du web vers le locale     # git colne --adresse du projet
+faire un depot en ligne                    # git push -u origin --nom de la branche
+creer une branche                          # git branch --nom de la branche
+changer de branche                         # git checkout --nom de la branche
+faire des merges                           #git merge  branches sources
+afficher tous les commit                   # git log
+revenir a une derniere version             #git checkout -nom de la vertion (code)
+configuration du nom  d'utilisateur        #git config -global user.name "nom utilisateur"
+configuration de l'addresse email          #git config -global user.email addresse email 
+
+
+ petit bonus : quand je télécharge un projet sur git, je dois faire npm install pour installer toute les dépendences
